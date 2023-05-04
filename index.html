@@ -132,10 +132,7 @@
             width: 100px;
             bottom: 0;
             left: 30px;
-            animation-name: layer2;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease;
+            animation: layer2 3s ease infinite;
         }
         @keyframes layer2 {
             0% {
@@ -172,10 +169,7 @@
             width: 100px;
             bottom: 0;
             right: 30px;
-            animation-name: layer3;
-            animation-duration: 1s;
-            animation-iteration-count: infinite;
-            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation: layer3 1s infinite cubic-bezier(0.19, 1, 0.22, 1);
         }
         @keyframes layer3 {
             0% {
@@ -287,9 +281,7 @@
             height: 8px;
             position: absolute;
             top: 15px;
-            animation-name: blink;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-name: blink 2s infinite;
         }
 
         @keyframes blink {
